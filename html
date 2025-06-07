@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple GitHub Repo Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f8fa;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            background: #24292f;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar .logo {
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background: #fff;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 30px;
+        }
+        .repo-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .repo-header .repo-name {
+            font-size: 24px;
+            font-weight: bold;
+            color: #0366d6;
+        }
+        .repo-header .public {
+            background: #eaf5ff;
+            color: #0366d6;
+            border: 1px solid #0366d6;
+            border-radius: 2em;
+            font-size: 12px;
+            padding: 2px 8px;
+        }
+        .description {
+            margin-bottom: 20px;
+            color: #586069;
+        }
+        .files-list {
+            border-top: 1px solid #e1e4e8;
+            padding-top: 10px;
+        }
+        .files-list li {
+            list-style: none;
+            padding: 8px 0;
+            font-family: monospace;
+            font-size: 16px;
+            color: #24292f;
+        }
+        .files-list li .file {
+            color: #6a737d;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <span class="logo">GitHub</span>
+        <span>vngw / simple-github-page</span>
+    </div>
+    <div class="container">
+        <div class="repo-header">
+            <span class="repo-name">simple-github-page</span>
+            <span class="public">Public</span>
+        </div>
+        <div class="description">
+            A simple static page that mimics a GitHub repository.
+        </div>
+        <ul class="files-list">
+            <li><span class="file">index.html</span></li>
+            <li><span class="file">README.md</span></li>
+            <li><span class="file">.gitignore</span></li>
+        </ul>
+    </div>
+</body>
+</html>
